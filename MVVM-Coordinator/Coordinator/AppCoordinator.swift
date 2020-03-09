@@ -24,6 +24,7 @@ class AppCoordinator: BaseCoordinator {
     }
 }
 
+// MARK: - SignInFeedback
 extension AppCoordinator: SignInFeedback {
     func didSignIn() {
         let coordinator = HomeCoordinator()
